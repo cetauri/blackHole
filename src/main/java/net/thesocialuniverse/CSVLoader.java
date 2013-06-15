@@ -24,7 +24,7 @@ public class CSVLoader {
     public void init(){
 
         try {
-            InputStream is = getClass().getResource("/dvd_list.csv").openStream();
+            InputStream is = getClass().getResource("/source.txt").openStream();
             list = IOUtils.readLines(is);
         } catch (Exception e){
             e.printStackTrace();

@@ -5,13 +5,18 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.utils.URLEncodedUtils;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.params.HttpConnectionParams;
 import org.apache.http.params.HttpParams;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -32,8 +37,18 @@ public class DownloadManager {
         if (manager == null) {
             synchronized(DownloadManager.class) {
                 manager = new DownloadManager();
-
             }
+        }
+        return manager;
+    }
+
+    public static DownloadManager reset(){
+        synchronized(DownloadManager.class) {
+            System.gc();
+            System.gc();
+            manager = null;
+
+            manager = new DownloadManager();
         }
         return manager;
     }
@@ -45,80 +60,27 @@ public class DownloadManager {
         HttpConnectionParams.setSoTimeout(params, 1000 * 60 * 5);
     }
 
-
-
-//    public boolean imageResources(IssueContext context){
-//        boolean status = true;
-//        status = downloads(context.getThumbImageList(), context.getJiwonNm(), context.getSaNo(), status);
-//        status = downloads(context.getDetailImageList(), context.getJiwonNm(), context.getSaNo(), status);
-//        return status;
-//    }
-
-    //    private boolean downloads(List<String> thumbImageList, String jiwonNm, String saNo, boolean status) {
-//        for (String url : thumbImageList) {
-//            try {
-//                String path = CrawlerUtils.getFilePath(jiwonNm, saNo) + File.separator + getFileName(url);
-//                download(url, path);
-//            } catch (Exception e) {
-//                logger.warn("Fail to Image download : " + url, e);
-//                status = false;
-//            }
-//        }
-//        return status;
-//    }
-//
-//    private static String getFileName(String url) {
-//        String pattern = "downloadfilename=";
-//        return StringUtils.substring(url, StringUtils.indexOf(url, "downloadfilename=") + pattern.length());
-//    }
-//
-//    public boolean pdf(IssueContext context){
-//        boolean status = true;
-//        String url = context.get(CrawlerContext.GamEvalSeo_FIELD);
-//        String path = CrawlerUtils.getFilePath(context.getJiwonNm(), context.getSaNo()) + File.separator + context.getSaNo() + ".pdf";
-//
-//        try {
-//            //download(url, path);
-//            AdHocHttpUtil.download(url, path);
-//        } catch (Exception e) {
-//            logger.warn("Fail to PDF download : " + url, e);
-//            return false;
-//        }
-//        return status;
-//    }
-//
-//    private void download(String url, String path) throws ClientProtocolException, IOException {
-//        File f = new File(path);
-//        if (!f.exists() || f.length() == 0 || FileUtils.readFileToString(f).startsWith("<!DOCTYPE")) {
-//            url = url.replaceAll("&amp;", "&");
-//
-//            HttpPost httpget = new HttpPost(url);
-//            HttpResponse response = httpclient.execute(httpget);
-//            int status = response.getStatusLine().getStatusCode();
-//
-//            if (status == 200) {
-//                HttpEntity entity = response.getEntity();
-//                FileUtils.writeByteArrayToFile(f, IOUtils.toByteArray(entity.getContent()));
-//            }else{
-//                throw new IllegalArgumentException("[" + status + "] Fail to Download : " + url);
-//            }
-//
-//            logger.debug("url : " + url);
-//            logger.debug("path : " + f.getAbsoluteFile());
-//        }
-//    }
-
-
-    final String pattern = "http://google.com/complete/search?output=toolbar&q=";
+    final String pattern = "http://google.com/complete/search";
     public String getResponse(String keyword) throws IOException {
-        String url = pattern + keyword;
+
+        List<NameValuePair> params = new ArrayList<NameValuePair>();
+        params.add(new BasicNameValuePair("output", "toolbar"));
+        params.add(new BasicNameValuePair("q", keyword));
+        String query = URLEncodedUtils.format(params, "UTF-8");
+        String url = pattern + "?" + query;
 
         HttpGet httpget = new HttpGet(url);
         HttpResponse response = httpclient.execute(httpget);
         status = response.getStatusLine().getStatusCode();
 
         HttpEntity entity = response.getEntity();
-        String content = IOUtils.toString(entity.getContent());
+        String content = IOUtils.toString(entity.getContent(), "ISO-8859-1");
+        content = new String(content.getBytes(), "UTF-8");
+
+//        System.out.println(keyword);
+        System.out.println(url);
+        System.out.println(content);
+//        System.out.println(entity.getContentEncoding());
 
         if (status == 200) {
             return content;
