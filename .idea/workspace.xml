@@ -7,7 +7,7 @@
     <file path="/HelloService.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1368763343963" ignored="false" />
     <file path="/log4j.properties" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1368762988282" ignored="false" />
     <file path="/MainService.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371222889577" ignored="false" />
-    <file path="/DownloadManager.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371287812563" ignored="false" />
+    <file path="/DownloadManager.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371791097548" ignored="false" />
     <file path="/pom.xml" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1369667194006" ignored="false" />
     <file path="/CSVLoader.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1369135739402" ignored="false" />
     <file path="/XmlParser.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1369666336383" ignored="false" />
@@ -16,6 +16,16 @@
     <file path="/source.txt" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1370878802606" ignored="false" />
     <file path="/castParse.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371035020522" ignored="false" />
     <file path="/CastParse.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371039896984" ignored="false" />
+    <file path="/DeepNavigator.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371749046321" ignored="false" />
+    <file path="/a.dummy" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371752106959" ignored="false" />
+    <file path="/fragment.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371750691714" ignored="false" />
+    <file path="/SecendService.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371791146876" ignored="false" />
+    <file path="/HelloApp.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371750611237" ignored="false" />
+    <file path="/TxtLoader.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371750749865" ignored="false" />
+    <file path="$PROJECT_DIR$/../blackhole2/src/main/java/net/thesocialuniverse/MainService.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371863676480" ignored="false" />
+    <file path="$PROJECT_DIR$/../blackhole2/src/main/java/net/thesocialuniverse/HelloApp.java" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371863676480" ignored="false" />
+    <file path="$USER_HOME$/project/blackHole/.idea/workspace.xml" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371868363773" ignored="false" />
+    <file path="$USER_HOME$/project/blackHole/universe.log" changelist="b09b0ec2-debe-4654-9916-00fa942bcff9" time="1371916401235" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +40,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -66,8 +78,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -77,14 +87,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="2nd.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2nd.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="28" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DownloadManager.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/thesocialuniverse/DownloadManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="33" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.30232558">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1968#1983#0" expanded="true" />
-              </folding>
+            <state line="91" column="0" selection-start="3022" selection-end="3022" vertical-scroll-proportion="3.2545455">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,10 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/net/thesocialuniverse/HelloService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/thesocialuniverse/HelloApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/thesocialuniverse/CSVLoader.java" />
         <option value="$PROJECT_DIR$/src/main/resources/dvd.xml" />
         <option value="$PROJECT_DIR$/src/test/java/net/thesocialuniverse/XmlParser.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -110,18 +122,23 @@
         <option value="$PROJECT_DIR$/src/test/java/net/thesocialuniverse/SpringAppTests.java" />
         <option value="$PROJECT_DIR$/src/main/resources/america_60_movie_cast.csv" />
         <option value="$PROJECT_DIR$/src/test/java/net/thesocialuniverse/CastParse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/thesocialuniverse/MainService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/source_.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/source.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/net/thesocialuniverse/DeepNavigator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/thesocialuniverse/MainService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/thesocialuniverse/HelloApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/thesocialuniverse/TxtLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/thesocialuniverse/SecendService.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/thesocialuniverse/DownloadManager.java" />
+        <option value="$PROJECT_DIR$/2nd.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="22" />
-    <option name="width" value="1916" />
-    <option name="height" value="1178" />
+    <option name="x" value="989" />
+    <option name="y" value="1200" />
+    <option name="width" value="640" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -150,7 +167,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -169,96 +185,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blackHole" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blackHole" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thesocialuniverse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blackHole" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blackHole" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blackHole" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blackHole" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thesocialuniverse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blackHole" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blackHole" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,7 +198,7 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/iAuctionCrawler/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blackhole2/pom.xml" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -282,6 +211,9 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.thesocialuniverse" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
@@ -402,6 +334,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="DeepNavigator.start" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.thesocialuniverse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="blackHole" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.thesocialuniverse" />
+      <option name="MAIN_CLASS_NAME" value="net.thesocialuniverse.DeepNavigator" />
+      <option name="METHOD_NAME" value="start" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -493,20 +453,22 @@
       <patterns />
       <method />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.HelloApp" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.AppTests" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.XmlParser.parseTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.XmlParser" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.CastParse.test" />
       <item index="5" class="java.lang.String" itemvalue="JUnit.CastParse.checkDuplicate" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.DeepNavigator.start" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CastParse.checkDuplicate" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CastParse.test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.XmlParser.parseTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.XmlParser" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DeepNavigator.start" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CastParse.checkDuplicate" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CastParse.test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.XmlParser.parseTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.XmlParser" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -561,30 +523,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1916" height="1178" extended-state="6" />
-    <editor active="true" />
+    <frame x="989" y="1200" width="640" height="800" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2863894" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13516068" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.761745" sideWeight="0.1129771" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20226844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986766" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16025642" sideWeight="0.7977316" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.4206049" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="324" y="293" width="1280" height="823" />
-      <window_info id="Hierarchy" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.7977316" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.761745" sideWeight="0.06259542" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8244275" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="4" y="22" width="1280" height="778" />
+      <window_info id="Hierarchy" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.7977316" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986766" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -656,98 +618,99 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.jar!/org/apache/http/client/HttpClient.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/thesocialuniverse/CSVLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="341" selection-end="341" vertical-scroll-proportion="0.25641027" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.jar!/org/apache/http/client/methods/HttpRequestBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="43" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.6841046" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.jar!/org/apache/http/client/methods/HttpGet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="70" selection-start="272" selection-end="272" vertical-scroll-proportion="0.11916584" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar!/org/apache/http/HttpEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="380" selection-end="380" vertical-scroll-proportion="0.31777558" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar!/org/apache/http/HttpResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="44" selection-start="851" selection-end="851" vertical-scroll-proportion="0.49652433" />
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/net/URLConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="83" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.5103042" />
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/net/URL.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="34" selection-start="3727" selection-end="3727" vertical-scroll-proportion="0.548577" />
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/net/HttpURLConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="14" selection-start="2843" selection-end="2843" vertical-scroll-proportion="0.3604651" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.jar!/org/apache/http/client/utils/URIUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="251" selection-end="452" vertical-scroll-proportion="0.1609658" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.jar!/org/apache/http/client/utils/URLEncodedUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="35" selection-start="1108" selection-end="1108" vertical-scroll-proportion="0.53846157" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/source_.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="74" selection-start="15" selection-end="15" vertical-scroll-proportion="0.024449877" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar!/org/apache/http/params/HttpParams.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="46" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/thesocialuniverse/MainService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="21" selection-start="2701" selection-end="2706" vertical-scroll-proportion="0.15503876">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/source.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar!/org/apache/commons/io/IOUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="35" selection-start="2370" selection-end="2370" vertical-scroll-proportion="0.32092556">
+        <state line="18" column="13" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/thesocialuniverse/DownloadManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="33" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.30232558">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1968#1983#0" expanded="true" />
-          </folding>
+        <state line="91" column="50" selection-start="3030" selection-end="3054" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar!/org/apache/commons/io/IOUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="53" selection-start="3704" selection-end="3704" vertical-scroll-proportion="0.34790528" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="226" column="35" selection-start="12091" selection-end="12091" vertical-scroll-proportion="0.16575591" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jdom/jdom/1.0/jdom-1.0.jar!/org/jdom/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="-4.875445" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jdom/jdom/1.0/jdom-1.0.jar!/org/jdom/Document.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="24" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jdom/jdom/1.0/jdom-1.0.jar!/org/jdom/output/XMLOutputter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="16" selection-start="3029" selection-end="3029" vertical-scroll-proportion="0.4571949" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar!/org/apache/commons/io/FileUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="23" selection-start="6635" selection-end="6635" vertical-scroll-proportion="0.420765" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/net/URLClassLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="20" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.6592845" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Class.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="170" column="0" selection-start="8239" selection-end="8239" vertical-scroll-proportion="0.33275262" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/thesocialuniverse/MainService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="0" selection-start="3121" selection-end="3499" vertical-scroll-proportion="0.36322188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/thesocialuniverse/CSVLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="394" selection-end="394" vertical-scroll-proportion="0.040733196">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/thesocialuniverse/HelloApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="496" selection-end="496" vertical-scroll-proportion="0.36659878">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/thesocialuniverse/SecendService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="37" selection-start="2371" selection-end="2371" vertical-scroll-proportion="0.48879838">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2nd.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="28" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/thesocialuniverse/DownloadManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="0" selection-start="3022" selection-end="3022" vertical-scroll-proportion="3.2545455">
+          <folding />
         </state>
       </provider>
     </entry>

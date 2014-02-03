@@ -48,7 +48,7 @@ public class MainService {
             } catch (Exception e) {
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
                 try {
-                    Thread.sleep(1000 * 10 * 1);      //638  365
+                    Thread.sleep(1000 * 3 * 1);      //638  365
                 } catch (Exception e1){}
 
                 DownloadManager.reset();

@@ -1,6 +1,7 @@
 package net.thesocialuniverse;
 
 import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.http.HttpEntity;
@@ -78,15 +79,19 @@ public class DownloadManager {
         content = new String(content.getBytes(), "UTF-8");
 
 //        System.out.println(keyword);
-        System.out.println(url);
-        System.out.println(content);
+//        System.out.println(url);
+//        System.out.println(content);
 //        System.out.println(entity.getContentEncoding());
 
         if (status == 200) {
             return content;
         }else{
-            logger.fatal(content);
-            throw new IllegalArgumentException("[" + status + "] Fail to keyword : " + keyword);
+            logger.fatal("["+keyword+"]" + content);
+
+            if (StringUtils.contains(content, "Your client has issued a malformed or illegal request.")) {
+                throw new IllegalArgumentException("Your client has issued a malformed or illegal request. : " + keyword);
+            }
+            throw new IllegalStateException("[" + status + "] Fail to keyword : " + keyword);
         }
     }
 
